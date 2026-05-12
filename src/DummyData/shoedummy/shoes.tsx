@@ -1,0 +1,567 @@
+import { menslidesproduct, womenslidesproduct } from "../shoedummy/shoegen";
+
+export const shoeproducts = [
+  // MEN
+  {
+    id: 1,
+    name: "Classic & Simple Male Black Crossed Pam Slips - (BLACK)",
+    image: menslidesproduct.male1,
+    images: [
+      menslidesproduct.male1,
+      menslidesproduct.male1b,
+      menslidesproduct.male1c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Fashionable & Breathable",
+      "Comfortable to wear",
+      "Material: High-quality premium leather.",
+      "Made of good quality material",
+      "Excellent workmanship & Hard-wearing",
+      "Color: Midnight Black with Gold and Cyan accents.",
+    ],
+  },
+
+  {
+    id: 2,
+    name: "The Royal Heritage Slide (Classic & Prestigious)",
+    image: menslidesproduct.male2,
+    images: [
+      menslidesproduct.male2,
+      menslidesproduct.male2b,
+      menslidesproduct.male2c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Upper: High-grade velvet and supple calfskin leather.",
+      "Sole: Durable, low-profile black rubberized outsole.",
+      "Accents: Polished gold-metallic hardware on the upper and heel.",
+      "Fashionable & Breathable",
+      "Comfortable to wear",
+      "Material: High-quality premium leather.",
+    ],
+  },
+
+  {
+    id: 3,
+    name: "The Signature Quilt-Stitch Slide",
+    image: menslidesproduct.male3,
+    images: [
+      menslidesproduct.male3,
+      menslidesproduct.male3b,
+      menslidesproduct.male3c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Style: Padded Crisscross Slide",
+      "Material: Supple Calf Leather",
+      "Texture: Defined Channel-Quilting",
+      "Footbed: Ergonomic Padded Insole",
+      "Outsole: Durable Low-Profile Leather/Rubber Hybrid",
+      "Hardware: Minimalist, Branding Discreet",
+      "Colors Available: Midnight Black, Charcoal Olive, and Tan Brown",
+      "Production: Hand-crafted, Bench-made Quality",
+      "Availability: Limited Production Run",
+    ],
+  },
+
+  {
+    id: 4,
+    name: "Zara Man Woven Leather Heritage Slides",
+    image: menslidesproduct.male4,
+    images: [
+      menslidesproduct.male4,
+      menslidesproduct.male4b,
+      menslidesproduct.male4c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Contemporary H-strap woven silhouette with an open-toe profile.",
+      "Premium matte synthetic leather upper for a sleek, durable finish.",
+      "Ergonomically cushioned black footbed featuring high-contrast ZARA branding.",
+      "High-traction, textured rubber sole for enhanced grip and stability.",
+      "Deep Espresso Brown upper with a Charcoal Black base.",
+      "Slip-on construction designed for effortless wear and a secure, comfortable fit.",
+    ],
+  },
+
+  {
+    id: 5,
+    name: "The Urban Cross-Strap Leather Slide",
+    image: menslidesproduct.male5,
+    images: [
+      menslidesproduct.male5,
+      menslidesproduct.male5b,
+      menslidesproduct.male5c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Ultra-soft, premium synthetic leather with high-density foam padding.",
+      "Dual wide criss-cross straps with linear quilted stitching",
+      "Ergonomically contoured, smooth-finish insole for a soft landing with every step.",
+      "Low-profile, flexible rubber sole with integrated grip patterns for indoor and outdoor versatility.",
+      "Slip-on open-toe construction for maximum breathability.",
+      "Color Availability:",
+      "Pitch Black: Bold and versatile",
+      "Olive Drab: A subtle, earthy neutral.",
+      "Saddle Tan: Warm, rich, and classic.",
+    ],
+  },
+
+  {
+    id: 6,
+    name: "Urban Nomad Dual-Buckle Platform Slides",
+    image: menslidesproduct.male6,
+    images: [
+      menslidesproduct.male6,
+      menslidesproduct.male6b,
+      menslidesproduct.male6c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Bold, industrial-inspired double-strap silhouette with adjustable metallic buckles.",
+      "High-grade brushed suede-finish upper for a soft yet structured feel.",
+      "Heavy-duty polished silver-toned buckles and rivet detailing for a rugged, premium aesthetic.",
+      "Extra-thick, elevated platform midsole with a deep-tread",
+      "Anatomically molded footbed designed to cradle the foot for superior all-day comfort.",
+      "Stealth Onyx Black with high-shine Chrome hardware.",
+      "Engineered for a street-style look that pairs effortlessly with jogger pants, distressed denim, or relaxed cargos.",
+    ],
+  },
+
+  {
+    id: 7,
+    name: "The Terra-Glide Platform Glads",
+    image: menslidesproduct.male7,
+    images: [
+      menslidesproduct.male7,
+      menslidesproduct.male7b,
+      menslidesproduct.male7c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Premium soft-touch faux suede with reinforced stitching for a refined, matte finish.",
+      "Intricate multi-strap gladiator-inspired upper featuring a functional adjustable ankle strap for a custom fit.",
+      "Lightweight, high-density EVA platform mid-sole (approx. 1.5 - 2 inches) offering extra height without the weight.",
+      "Suede-lined, anatomical footbed with arch support for long-lasting comfort.",
+      "Durable, textured rubber base providing excellent traction on city streets or boardwalks.",
+      "Warm Sand / Earthy Toffee – A versatile monochromatic tan that elongates the appearance of the leg.",
+      "Side buckle or hook-and-loop system for easy on-and-off accessibility.",
+    ],
+  },
+
+  {
+    id: 8,
+    name: "The KIDEX Heritage Cross-Strap Slide",
+    image: menslidesproduct.male8,
+    images: [
+      menslidesproduct.male8,
+      menslidesproduct.male8b,
+      menslidesproduct.male8c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Style: Classic Crisscross Open-Toe Slide",
+      "Material: Premium Full-Grain Synthetic Leather",
+      "Finish: Polished Mahogany Brown with a Subtle Lustre",
+      "Construction: Precision Perimeter Stitching for Enhanced Durability",
+      "Footbed: Ergonomic Padded Insole with Gold-Leaf KIDEX Branding",
+      "Outsole: High-Traction, Lightweight Compressed Rubber",
+      "Design Detail: Wide-Band Overlapping Straps for Maximum Foot Support",
+      "Occasion: Ideal for Casual Outings, Semi-Formal Native Attire, and Urban Lounging",
+    ],
+  },
+
+  {
+    id: 9,
+    name: "Heritage Monk-Strap Leather Slides",
+    image: menslidesproduct.male9,
+    images: [
+      menslidesproduct.male9,
+      menslidesproduct.male9b,
+      menslidesproduct.male9c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Sophisticated dual-tone monk-strap silhouette with an open-back slide construction.",
+      "Crafted from smooth, high-quality calfskin leather with a refined matte finish.",
+      "Features signature twin brass-finished buckles that add a classic, sartorial touch.",
+      "A stylish contrast of Sand Beige and Deep Mahogany Brown.",
+      "Slim-profile, durable rubber outsole.",
+      "Contoured tan leather insole.",
+      "Slip-on ease combined with a structured upper.",
+    ],
+  },
+
+  {
+    id: 10,
+    name: "KIDEX Men's Double-Strap Leather Slide Sandals",
+    image: menslidesproduct.male10,
+    images: [
+      menslidesproduct.male10,
+      menslidesproduct.male10b,
+      menslidesproduct.male10c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Premium Faux or Genuine Leather with a smooth matte finish",
+      "Double-strap Monk design with decorative gunmetal buckles",
+      "Cushioned, ergonomic footbed",
+      "Durable, non-slip rubberized black sole",
+      "Rich Espresso Brown / Camel / Black",
+      "Minimalist, Contemporary, Semi-formal",
+      "Two adjustable metallic buckles",
+      "Reinforced stitching",
+    ],
+  },
+
+  {
+    id: 11,
+    name: "Men’s Urban Suede Cross-Strap Slide Sandals with Platform Ripple Sole",
+    image: menslidesproduct.male11,
+    images: [
+      menslidesproduct.male11,
+      menslidesproduct.male11b,
+      menslidesproduct.male11c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Casual Slide Sandals / Mule Hybrid",
+      "Premium Synthetic Suede",
+      "Wide Cross-Over Straps",
+      "Open-Toe",
+      "Ergonomic Contoured Footbed",
+      "High-Density EVA",
+      "Platform Ripple Sole",
+      "Camel / Cream",
+      "Contemporary Streetwear",
+    ],
+  },
+
+  {
+    id: 12,
+    name: "Urban Suede Cross-Strap Sliders",
+    image: menslidesproduct.male12,
+    images: [
+      menslidesproduct.male12,
+      menslidesproduct.male12b,
+      menslidesproduct.male12c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Premium brushed suede upper",
+      "Adjustable Velcro strap",
+      "Ergonomic footbed",
+      "Thick rubber outsole",
+      "Slate Grey / Black",
+      "Casual",
+    ],
+  },
+
+  {
+    id: 13,
+    name: "Men's Premium Olive Green Suede Cross-Strap Slides",
+    image: menslidesproduct.male13,
+    images: [
+      menslidesproduct.male13,
+      menslidesproduct.male13b,
+      menslidesproduct.male13c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Suede lining",
+      "Contoured footbed",
+      "Durable sole",
+      "Luxury casual",
+      "Olive Green / Beige",
+    ],
+  },
+
+  {
+    id: 14,
+    name: "Luxury Suede-Finish T-Strap Slide Sandals",
+    image: menslidesproduct.male14,
+    images: [
+      menslidesproduct.male14,
+      menslidesproduct.male14b,
+      menslidesproduct.male14c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "T-Strap Slides",
+      "Premium suede",
+      "Gold buckle",
+      "Contoured footbed",
+      "Black sole",
+    ],
+  },
+
+  {
+    id: 15,
+    name: "UrbanSuede Buckle & Rivet Sandals",
+    image: menslidesproduct.male15,
+    images: [
+      menslidesproduct.male15,
+      menslidesproduct.male15b,
+      menslidesproduct.male15c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Suede leather",
+      "Sandstone Brown",
+      "Chunky sole",
+      "Gold buckles",
+      "Platform height",
+    ],
+  },
+
+  {
+    id: 16,
+    name: "Bee Banks Footies: Handcrafted Tan Leather Cross-Strap Slides",
+    image: menslidesproduct.male16,
+    images: [
+      menslidesproduct.male16,
+      menslidesproduct.male16b,
+      menslidesproduct.male16c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Calfskin leather",
+      "Cross-strap",
+      "Tan/Camel",
+      "EVA foam",
+      "Luxury casual",
+    ],
+  },
+
+  // WOMEN (continue IDs)
+  {
+    id: 17,
+    name: "MANGO Criss-Cross Strap Comfort Slides",
+    image: womenslidesproduct.female1,
+    images: [
+      womenslidesproduct.female1,
+      womenslidesproduct.female1b,
+      womenslidesproduct.female1c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Criss-cross straps",
+      "Synthetic leather",
+      "Cushioned footbed",
+      "Rubber sole",
+      "Tan / Black",
+    ],
+  },
+
+  {
+    id: 18,
+    name: "Vibrant Triple-Strap Platform Wedge Slides",
+    image: womenslidesproduct.female2,
+    images: [
+      womenslidesproduct.female2,
+      womenslidesproduct.female2b,
+      womenslidesproduct.female2c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Platform wedge",
+      "Soft fabric",
+      "Open-toe",
+      "EVA sole",
+      "3-4 inch height",
+    ],
+  },
+
+  {
+    id: 19,
+    name: "Urban Nomad Dual-Strap Leather Slides",
+    image: womenslidesproduct.female3,
+    images: [
+      womenslidesproduct.female3,
+      womenslidesproduct.female3b,
+      womenslidesproduct.female3c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: ["Leather", "Double strap", "Ergonomic", "Slip-on", "Casual"],
+  },
+
+  {
+    id: 20,
+    name: "ZARA Collection Quilted Criss-Cross Embellished Slides",
+    image: womenslidesproduct.female4,
+    images: [
+      womenslidesproduct.female4,
+      womenslidesproduct.female4b,
+      womenslidesproduct.female4c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Quilted straps",
+      "Charms",
+      "Padded leather",
+      "Multiple colors",
+      "Stylish",
+    ],
+  },
+
+  {
+    id: 21,
+    name: "Chic Criss-Cross Buckle Flat Slides",
+    image: womenslidesproduct.female5,
+    images: [
+      womenslidesproduct.female5,
+      womenslidesproduct.female5b,
+      womenslidesproduct.female5c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Flat slides",
+      "Vegan leather",
+      "Square toe",
+      "Rubber sole",
+      "Casual",
+    ],
+  },
+
+  {
+    id: 22,
+    name: "Obsidian Textured Cross-Strap Luxe Slides",
+    image: womenslidesproduct.female6,
+    images: [
+      womenslidesproduct.female6,
+      womenslidesproduct.female6b,
+      womenslidesproduct.female6c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Textured leather",
+      "Cross-strap",
+      "Ergonomic",
+      "Rubber sole",
+      "Black",
+    ],
+  },
+
+  {
+    id: 23,
+    name: "Neon Sage 'H-Band' Sculpted Slides",
+    image: womenslidesproduct.female7,
+    images: [
+      womenslidesproduct.female7,
+      womenslidesproduct.female7b,
+      womenslidesproduct.female7c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "H-band",
+      "Velcro strap",
+      "Ergonomic",
+      "Rubber sole",
+      "Green/Black",
+    ],
+  },
+
+  {
+    id: 24,
+    name: "Heritage Suede Slides with Palladium Turn-Lock Accent",
+    image: womenslidesproduct.female8,
+    images: [
+      womenslidesproduct.female8,
+      womenslidesproduct.female8b,
+      womenslidesproduct.female8c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Suede",
+      "Turn-lock",
+      "Leather-lined",
+      "Rubber sole",
+      "Sage Green",
+    ],
+  },
+
+  {
+    id: 25,
+    name: "Noir Elegance Buckle-Strap Slides",
+    image: womenslidesproduct.female9,
+    images: [
+      womenslidesproduct.female9,
+      womenslidesproduct.female9b,
+      womenslidesproduct.female9c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Gold buckle",
+      "Synthetic leather",
+      "Cushioned",
+      "Rubber sole",
+      "Black/Gold",
+    ],
+  },
+
+  {
+    id: 26,
+    name: "Luxury Emblem Thong Platform Slides",
+    image: womenslidesproduct.female10,
+    images: [
+      womenslidesproduct.female10,
+      womenslidesproduct.female10b,
+      womenslidesproduct.female10c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Thong style",
+      "Synthetic leather",
+      "Platform",
+      "Cushioned",
+      "Designer look",
+    ],
+  },
+
+  {
+    id: 27,
+    name: "Ivory Aura Cut-Out Tech Slides",
+    image: womenslidesproduct.female11,
+    images: [
+      womenslidesproduct.female11,
+      womenslidesproduct.female11b,
+      womenslidesproduct.female11c,
+    ],
+    price: "₦18,000",
+    oldPrice: "₦22,000",
+    features: [
+      "Cut-out strap",
+      "Velcro ankle",
+      "Cushioned",
+      "Rubber sole",
+      "White/Black",
+    ],
+  },
+];
